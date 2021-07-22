@@ -53,7 +53,7 @@ extern crate core2;
 extern crate core; // for Rust 1.29 and no-std tests
 
 // Re-exported dependencies.
-#[macro_use] pub extern crate bitcoin_hashes as hashes;
+#[macro_use] pub extern crate dogecoin_hashes as hashes;
 pub extern crate secp256k1;
 pub extern crate bech32;
 

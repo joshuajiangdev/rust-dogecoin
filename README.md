@@ -1,3 +1,20 @@
+# Rust Dogecoin Library
+
+This repository was forked from
+[rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin) in an effort to
+work with Dogecoin in Rust.
+
+The dogecoin patchset is extremely small, currently all we do is:
+
+- Add this section to the README.
+- Rename the package.
+- Depend upon [dogecoin_hashes](https://github.com/tobin-crypto/dogecoin_hashes)
+  (dogecoin fork of
+  [bitcoin_hashes](https://github.com/rust-bitcoin/bitcoin_hashes)).
+- Change the address prefix bytes
+
+## ----- Original rust-bitcoin README ------
+
 ![Continuous integration](https://github.com/rust-bitcoin/rust-bitcoin/workflows/Continuous%20integration/badge.svg)
 [![Safety Dance](https://img.shields.io/badge/unsafe-forbidden-success.svg)](https://github.com/rust-secure-code/safety-dance/)
 
