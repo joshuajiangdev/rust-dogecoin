@@ -257,7 +257,7 @@ impl PrivateKey {
         };
 
         let network = match data[0] {
-            128 => Network::Bitcoin,
+            158 => Network::Bitcoin,
             239 => Network::Testnet,
             x   => { return Err(Error::Base58(base58::Error::InvalidAddressVersion(x))); }
         };
